@@ -152,7 +152,7 @@ p{
 #four {
     position: absolute;
     top: 76%;
-    left: 66%;
+    left: 63%;
     transform: translate(-50%, -50%);
     animation: out 10s 1s both;
 }
