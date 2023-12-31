@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Pacifico&family=Shantell+Sans&display=swap" rel="stylesheet">
+    <script src="confetti.js"></script>
+    <script>
+        const startit = () => {
+        setTimeout(function () {
+          console.log("start");
+          startConfetti();
+        }, 13000);
+      };
+
+      const stopit = () => {
+        setTimeout(function () {
+          console.log("stop");
+          stopConfetti();
+        }, 20000);
+      };
+
+      startit();
+      stopit();
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class="stars-group1">
+            <div id="star1">&#10024;</div>
+            <div id="star2">&#10024;</div>
+            <div id="star3">&#10024;</div>
+        </div>
+        <div class="stars-group2">
+            <div id="starg1">&#10024;</div>
+            <div id="starg2">&#10024;</div>
+            <div id="starg3">&#10024;</div>
+        </div>
+        <div class="newyear">Happy New Year!</div>
+        <div class="center">
+            <p>2</p>
+            <p>0</p>
+            <p>2</p>
+            <p id="three">3</p>
+        </div>
+        <div id="outer-circle">
+            <div class="pipe"></div>
+        </div>
+        <p id="four">4</p>
+    </div>
+</body>
+</html>
